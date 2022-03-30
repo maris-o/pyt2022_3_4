@@ -8,7 +8,6 @@ count = 0
 
 for lines in cerealsFile: 
     count += 1
-    print(lines)
     if count != 1:
         ratingPlacment = lines.rfind (',')
         ratingNumber = float (lines [ratingPlacment + 1 :])
